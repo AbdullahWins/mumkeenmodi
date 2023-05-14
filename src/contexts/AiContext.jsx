@@ -5,7 +5,6 @@ const configuration = new Configuration({
   apiKey: process.env.REACT_APP_OPENAI_API_KEY,
 });
 
-console.log(process.env.REACT_APP_OPENAI_API_KEY)
 const openai = new OpenAIApi(configuration);
 
 export const AiContext = createContext();
@@ -39,9 +38,9 @@ const AiProvider = ({ children }) => {
       setIsProccesing(true);
       const response = await openai.createCompletion({
         model: "text-davinci-003",
-        prompt: `Act as India's Prime Minister Narendra Modi and response to the following message as Narendra Modi:\n\n ${input}`,
+        prompt: `Act as India's Prime Minister Narendra Modi and response to the following message:\n\n ${input}`,
         temperature: 0,
-        max_tokens: 1500,
+        max_tokens: 1000,
         top_p: 1.0,
         frequency_penalty: 0.0,
         presence_penalty: 0.0,

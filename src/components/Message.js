@@ -32,7 +32,7 @@ export default function Message({ user, message, time }) {
         <p className="text-sm sm:text-lg font-secondary font-normal">
           {message}
         </p>
-        <p className={`text-xs ${user && "text-right"}`}>{time}</p>
+        <p className={`text-xs opacity-40 ${user && "text-right"}`}>{time}</p>
       </div>
     </div>
   );
