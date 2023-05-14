@@ -1,0 +1,40 @@
+{
+    "modiMessages" : [
+      {
+          "id": 1,
+          "user": false,
+          "message": "ask me anything"
+      },
+      {
+          "id": 2,
+          "user": true,
+          "message": "user message 1"
+      },
+      {
+          "id": 3,
+          "user": false,
+          "message": "bot reply 1"
+      },
+      {
+          "id": 4,
+          "user": true,
+          "message": "user message 2"
+      },
+      {
+          "id": 5,
+          "user": false,
+          "message": "bot reply 2"
+      },
+      {
+          "id": 6,
+          "user": true,
+          "message": "user message 3"
+      },
+      {
+        "id": 7,
+        "user": false,
+        "message": "bot reply 3"
+    }
+      
+    ]
+  }
