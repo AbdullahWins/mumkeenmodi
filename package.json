@@ -1,6 +1,5 @@
 {
-  "name": "chatbot2",
-  "homepage": "paste your url here",
+  "name": "modibot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
