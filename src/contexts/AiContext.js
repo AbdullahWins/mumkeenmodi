@@ -16,8 +16,6 @@ const AiProvider = ({ children }) => {
     minute: "2-digit",
   });
 
-  console.log(formattedDate);
-
   // states
   const [modiMessages, setModiMessages] = useState([
     { user: false, message: "How can I help you?" },
